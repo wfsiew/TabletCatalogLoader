@@ -92,7 +92,7 @@ namespace TabletCatalogLoader.Model
 
                             case 4:
                                 string name = cell.getContents();
-                                int k = name.IndexOf("(");
+                                int k = name.LastIndexOf("(");
                                 string _name = name.Substring(0, k);
                                 if (string.IsNullOrEmpty(product.name))
                                     product.name = _name.Trim();

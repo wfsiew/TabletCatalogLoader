@@ -1,0 +1,11 @@
+E:\vs_Projects\TabletCatalogLoader\TabletCatalogLoader\bin\Release\TabletCatalogLoader.exe.config
+E:\vs_Projects\TabletCatalogLoader\TabletCatalogLoader\bin\Release\TabletCatalogLoader.exe
+E:\vs_Projects\TabletCatalogLoader\TabletCatalogLoader\bin\Release\TabletCatalogLoader.pdb
+E:\vs_Projects\TabletCatalogLoader\TabletCatalogLoader\bin\Release\CSharpJExcel.dll
+E:\vs_Projects\TabletCatalogLoader\TabletCatalogLoader\bin\Release\Newtonsoft.Json.dll
+E:\vs_Projects\TabletCatalogLoader\TabletCatalogLoader\bin\Release\System.Data.SQLite.dll
+E:\vs_Projects\TabletCatalogLoader\TabletCatalogLoader\bin\Release\System.Data.SQLite.Linq.dll
+E:\vs_Projects\TabletCatalogLoader\TabletCatalogLoader\bin\Release\Newtonsoft.Json.xml
+E:\vs_Projects\TabletCatalogLoader\TabletCatalogLoader\obj\Release\TabletCatalogLoader.csprojResolveAssemblyReference.cache
+E:\vs_Projects\TabletCatalogLoader\TabletCatalogLoader\obj\Release\TabletCatalogLoader.exe
+E:\vs_Projects\TabletCatalogLoader\TabletCatalogLoader\obj\Release\TabletCatalogLoader.pdb

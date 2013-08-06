@@ -62,10 +62,10 @@ namespace TabletCatalogLoader.Model
             }
         }
 
-        public void LoadCategory(List<Category> lc)
+        public void LoadCategory(List<Category> lc, Dictionary<int, List<Product>> dic)
         {
-            string q = "insert into category (id, name) values (@id, @name)";
-            string s = "CREATE TABLE \"category\" (\"id\" INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL  UNIQUE , \"name\" VARCHAR UNIQUE )";
+            string q = "insert into category (id, name, product_count) values (@id, @name, @productCount)";
+            string s = "CREATE TABLE \"category\" (\"id\" INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL  UNIQUE , \"name\" VARCHAR UNIQUE , \"product_count\" INTEGER NOT NULL  DEFAULT 0)";
 
             try
             {
@@ -83,6 +83,7 @@ namespace TabletCatalogLoader.Model
 
                     cmd.Parameters.AddWithValue("@id", o.id);
                     cmd.Parameters.AddWithValue("@name", o.name);
+                    cmd.Parameters.AddWithValue("@productCount", dic[o.id].Count);
 
                     cmd.ExecuteNonQuery();
                 }

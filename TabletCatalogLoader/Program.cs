@@ -18,7 +18,7 @@ namespace TabletCatalogLoader
             {
                 Loader o = new Loader(file);
                 DbLoader dc = new DbLoader("category");
-                dc.LoadCategory(o.CategoryList);
+                dc.LoadCategory(o.CategoryList, o.ProductData);
 
                 foreach (KeyValuePair<int, List<Product>> kv in o.ProductData)
                 {

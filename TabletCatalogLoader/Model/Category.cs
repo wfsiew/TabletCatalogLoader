@@ -10,5 +10,6 @@ namespace TabletCatalogLoader.Model
     {
         public int id { get; set; }
         public string name { get; set; }
+        public int productCount { get; set; }
     }
 }
